@@ -2,11 +2,14 @@
 
 ## Despliegue
 
-##### Crear rol y bdd para la API
-Ocupando pgadmin o psql ejecute "script-creacion-rol-y-bdd.sql"
+##### Crear rol para la API
+Ocupando pgadmin o psql ejecute "script-1-creacion-rol.sql"
+
+##### Crear base de datos para la API
+Ocupando pgadmin o psql ejecute "script-2-creacion-bdd.sql"
 
 ##### Crear tablas correspondientes al modelo
-Ocupando pgadmin o psql ejecute "script-creacion-tablas.sql"
+Ocupando pgadmin o psql ejecute "script-3-creacion-tablas.sql"
 
 #### Para ejecutar UnitTests
     mvnw test
