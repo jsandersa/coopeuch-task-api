@@ -1,4 +1,3 @@
-
 CREATE ROLE coopeuch WITH
   LOGIN
   NOSUPERUSER
